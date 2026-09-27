@@ -1,4 +1,5 @@
-# Configuração da extensão Wokwi para VS Code.
-# Os caminhos do firmware compilado serão definidos na Etapa 1.
+# Configuração da extensão Wokwi para VS Code
 [wokwi]
 version = 1
+firmware = '.pio/build/esp32dev/firmware.bin'
+elf = '.pio/build/esp32dev/firmware.elf'

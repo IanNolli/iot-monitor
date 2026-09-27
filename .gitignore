@@ -11,6 +11,9 @@ venv/
 node_modules/
 dist/
 
+# PlatformIO (build do firmware)
+.pio/
+
 # Editores e sistema
 .idea/
 .DS_Store
