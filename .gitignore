@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Variáveis de ambiente (nunca versionar tokens)
+.env
+
+# Node / Vite
+node_modules/
+dist/
+
+# Editores e sistema
+.idea/
+.DS_Store
+Thumbs.db
+
+# Mosquitto (arquivos gerados em execução)
+mosquitto/*.db
+mosquitto/*.log

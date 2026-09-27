@@ -1,0 +1,4 @@
+# Configuração da extensão Wokwi para VS Code.
+# Os caminhos do firmware compilado serão definidos na Etapa 1.
+[wokwi]
+version = 1
