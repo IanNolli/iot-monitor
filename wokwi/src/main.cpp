@@ -13,9 +13,9 @@
 const char* WIFI_SSID     = "Wokwi-GUEST";  // rede virtual do Wokwi
 const char* WIFI_PASSWORD = "";
 
-// Etapa 1: broker público, apenas para testar a publicação.
-// Etapa 2: será trocado por "host.wokwi.internal" (Mosquitto local).
-const char*    MQTT_HOST  = "test.mosquitto.org";
+// Mosquitto rodando no computador local. Na extensão Wokwi para VS Code,
+// "host.wokwi.internal" aponta para a máquina que executa a simulação.
+const char*    MQTT_HOST  = "host.wokwi.internal";
 const uint16_t MQTT_PORT  = 1883;
 const char*    MQTT_TOPIC = "casa/temperatura";
 

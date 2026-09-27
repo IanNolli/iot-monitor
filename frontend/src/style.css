@@ -1,0 +1,23 @@
+:root {
+  --fundo: #edf2f5;
+  --superficie: #ffffff;
+  --tinta: #17313e;
+  --tinta-suave: #587180;
+  --borda: #d5dfe5;
+  --linha: #2a7a8c;
+  --alerta-fundo: #fdf1e3;
+  --alerta-tinta: #8a4b0f;
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--tinta);
+  background: var(--fundo);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
