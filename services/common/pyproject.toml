@@ -1,0 +1,8 @@
+[project]
+name = "aiot-common"
+version = "1.0.0"
+description = "Código compartilhado dos serviços AIoT"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["aiot_common"]

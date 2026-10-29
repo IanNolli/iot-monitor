@@ -1,0 +1,17 @@
+# Permissões por tópico de cada cliente MQTT
+
+# Simulador: publica telemetria e recebe comandos
+user simulador
+topic write aiot/telemetria/#
+topic read aiot/comando/#
+
+# Gateway: recebe telemetria e envia comandos ao dispositivo
+user gateway
+topic read aiot/telemetria/#
+topic write aiot/comando/#
+
+# Monitor: só leitura, para acompanhar o tráfego na demonstração e para o healthcheck
+# ($SYS precisa de permissão explícita: "aiot/#" não cobre os tópicos do broker)
+user monitor
+topic read aiot/#
+topic read $SYS/#

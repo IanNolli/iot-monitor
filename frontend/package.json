@@ -1,7 +1,7 @@
 {
   "name": "iot-monitor-frontend",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "chart.js": "^4.5.0",
-    "vue": "^3.5.18"
+    "three": "^0.180.0",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@types/three": "^0.180.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",

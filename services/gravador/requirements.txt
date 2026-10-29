@@ -1,0 +1,2 @@
+aio-pika==9.5.7
+influxdb-client[async]==1.49.0
